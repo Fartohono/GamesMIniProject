@@ -1,0 +1,71 @@
+body{
+    background-color: #000a00;
+}
+.container{
+    outline: 2px dashed red;
+    width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;  
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+color: whitesmoke;
+font-weight: 1000;
+font-size: 36px;
+}
+.logo-green{
+    color: green;
+
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+color: #00ff00;
+    text-decoration: none;
+}
+.hero-title{
+    color: rgb(205, 255, 205);
+display: flex;
+justify-content: center;
+padding-top: 15px;
+margin-bottom: 15px;
+}
+.hero-text{
+    color: greenyellow;
+display: flex;
+justify-content: center;
+padding-bottom: 15px;
+}
+
+.nav-item{
+}
+.header .container{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fillters-list{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+gap: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.filter-btn{
+    color: green;
+    background-color: #002000;
+    gap: 10px;
+    border-radius: 5px;
+}
